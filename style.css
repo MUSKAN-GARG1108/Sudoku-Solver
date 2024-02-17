@@ -1,0 +1,150 @@
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 40px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #020202;
+    font-weight: bold;
+    background-color: #9f989c;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #ffffff;
+    /* box-shadow: inset 0px 1px 0px #ffffff; */
+    margin-right: 10px;
+}
+
+.box1{
+    background-color: #b8bcbc;
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+.box1:hover{
+    background-color: #fefbfd;
+    color: black;
+}
+
+.box2{
+    background-color: #6b6b68;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box2:hover{
+    background-color: #fefbfd;
+    color:black;
+}
+
+.box3{
+    background-color: #b8bcbc;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box3:hover{
+    background-color: #fefbfd;
+    color: black
+}
+
+.box4{
+    background-color: #6b6b68;
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+.box4:hover{
+    background-color: #fefbfd;
+    color: black;
+}
+
+.box5{
+    background-color: #b8bcbc;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box5:hover{
+    background-color: #fefbfd;
+    color:black;
+}
+
+.box6{
+    background-color: #6b6b68;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box6:hover{
+    background-color: #fefbfd;
+    color: black
+}
+
+.b2{
+    border-left: 4px solid black;
+}
+
+.box7{
+    background-color: #b8bcbc;
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+.box7:hover{
+    background-color: #fefbfd;
+    color: black;
+}
+
+.box8{
+    background-color: #6b6b68;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box8:hover{
+    background-color: #fefbfd;
+    color:black;
+}
+
+.box9{
+    background-color: #b8bcbc;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.box9:hover{
+    background-color: #fefbfd;
+    color: black
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
